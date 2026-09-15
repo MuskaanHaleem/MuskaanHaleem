@@ -149,30 +149,21 @@ An end-to-end machine learning platform designed to analyze employment market da
 https://github.com/MuskaanHaleem/ai-job-market-intelligence-platform
 
 
-### ML Pipeline
+### ML Pipeline — Job Intelligence System:
 
-
-Job Dataset
-
-↓
-
-Data Cleaning
-
-↓
-
-Feature Engineering
-
-↓
-
-Exploratory Analysis
-
-↓
-
-Machine Learning Models
-
-↓
-
-Prediction Application
+```text
+[Raw Job Dataset] 
+        ↓
+[Data Cleaning & Preprocessing]
+        ↓
+[Feature Engineering]
+        ↓
+[Machine Learning Models]
+        ↓
+[Role Classification + Salary Prediction]
+        ↓
+[Streamlit Prediction Application]
+```
 
 
 ### Technical Implementation
@@ -211,26 +202,21 @@ An end-to-end data warehouse solution implementing ETL processing, dimensional m
 https://github.com/MuskaanHaleem/ice-cream-sales-data-warehouse-analytics
 
 
-### Data Architecture
+### Architecture — Data Warehouse System:
 
-
-Raw Data
-
-↓
-
-ETL Processing
-
-↓
-
-Fact & Dimension Tables
-
-↓
-
-Star Schema Model
-
-↓
-
-Power BI Reporting
+```text
+[Raw Sales Data]
+        ↓
+[ETL Pipeline]
+        ↓
+[Data Warehouse]
+        ↓
+[Star Schema Model]
+        ↓
+[Power BI Dashboard]
+        ↓
+[Business Insights]
+```
 
 
 ### Technical Implementation
@@ -269,30 +255,19 @@ https://github.com/MuskaanHaleem/pizza-sales-business-intelligence-dashboard
 
 
 
-### Business Intelligence Workflow
+### Workflow — Business Intelligence Pipeline:
 
-
-Transactional Sales Data
-
-↓
-
-SQL Data Analysis
-
-↓
-
-KPI Development
-
-↓
-
-Business Metrics
-
-↓
-
-Power BI Dashboard
-
-↓
-
-Decision Support
+```text
+[Sales Transactions]
+        ↓
+[SQL Analysis]
+        ↓
+[KPI Calculation]
+        ↓
+[Power BI Dashboard]
+        ↓
+[Decision Support]
+```
 
 
 ### Technical Implementation
