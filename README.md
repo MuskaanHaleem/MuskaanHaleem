@@ -97,43 +97,27 @@ https://github.com/MuskaanHaleem/karachi-retail-intelligence
 ### Architecture
 
 
-┌──────────────────────┐
-│      User Query      │
-│ "Show monthly sales" │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│  AI Agent Layer      │
-│                      │
-│ LangGraph Workflow   │
-│ LLM Reasoning        │
-│ Prompt Processing    │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ Query Intelligence   │
-│                      │
-│ Natural Language → SQL│
-│ Query Validation     │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ Data Layer           │
-│                      │
-│ PostgreSQL Database  │
-│ Read Only Access     │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ Analytics Response   │
-│                      │
-│ Business Insights    │
-│ Automated Reporting  │
-└──────────────────────┘
+User Question
+
+↓
+
+LLM Reasoning Agent
+
+↓
+
+SQL Generation
+
+↓
+
+Query Validation
+
+↓
+
+PostgreSQL Database
+
+↓
+
+Business Insight
 
 
 ### Technical Implementation
@@ -176,47 +160,27 @@ https://github.com/MuskaanHaleem/ai-job-market-intelligence-platform
 ### ML Pipeline
 
 
-                 DATA INGESTION
-                       │
-                       ▼
+Job Dataset
 
-        ┌─────────────────────────┐
-        │   Raw Job Market Data   │
-        │   99K+ Job Records      │
-        └───────────┬─────────────┘
-                    │
+↓
 
-                    ▼
+Data Cleaning
 
-        ┌─────────────────────────┐
-        │ Data Processing Layer   │
-        │                         │
-        │ • Cleaning              │
-        │ • Feature Engineering   │
-        │ • Transformation        │
-        └───────────┬─────────────┘
+↓
 
-                    │
+Feature Engineering
 
-          ┌─────────┴─────────┐
-          ▼                   ▼
+↓
 
-┌────────────────┐   ┌────────────────┐
-│ Classification │   │  Regression    │
-│                │   │                │
-│ Job Role       │   │ Salary         │
-│ Prediction     │   │ Estimation     │
-└───────┬────────┘   └───────┬────────┘
+Exploratory Analysis
 
-        │                    │
+↓
 
-        └──────────┬─────────┘
-                   ▼
+Machine Learning Models
 
-        ┌────────────────────┐
-        │ Streamlit App      │
-        │ Prediction Layer   │
-        └────────────────────┘
+↓
+
+Prediction Application
 
 
 ### Technical Implementation
@@ -258,48 +222,23 @@ https://github.com/MuskaanHaleem/ice-cream-sales-data-warehouse-analytics
 ### Data Architecture
 
 
-                 DATA SOURCES
+Raw Data
 
-        ┌─────────────────────┐
-        │ Transaction Dataset │
-        └──────────┬──────────┘
-                   │
+↓
 
-                   ▼
+ETL Processing
 
-        ┌─────────────────────┐
-        │ ETL PIPELINE        │
-        │                     │
-        │ Extract             │
-        │ Transform           │
-        │ Load                │
-        └──────────┬──────────┘
+↓
 
-                   │
+Fact & Dimension Tables
 
-                   ▼
+↓
 
-        ┌─────────────────────┐
-        │ DATA WAREHOUSE      │
-        │                     │
-        │   Fact Sales        │
-        │        │            │
-        │ ┌──────┼──────┐     │
-        │ Date Product Store │
-        │ Dealer Payment     │
-        └──────────┬──────────┘
+Star Schema Model
 
-                   │
+↓
 
-                   ▼
-
-        ┌─────────────────────┐
-        │ Power BI Analytics  │
-        │                     │
-        │ KPIs                │
-        │ Trends              │
-        │ Reports             │
-        └─────────────────────┘
+Power BI Reporting
 
 
 ### Technical Implementation
@@ -341,32 +280,27 @@ https://github.com/MuskaanHaleem/pizza-sales-business-intelligence-dashboard
 ### Business Intelligence Workflow
 
 
-┌─────────────────────┐
-│ Sales Transactions  │
-└──────────┬──────────┘
-           │
-           ▼
+Transactional Sales Data
 
-┌─────────────────────┐
-│ SQL Analytics Layer │
-│                     │
-│ Aggregations        │
-│ KPIs                │
-│ Business Metrics    │
-└──────────┬──────────┘
+↓
 
-           │
+SQL Data Analysis
 
-           ▼
+↓
 
-┌─────────────────────┐
-│ Power BI Dashboard  │
-│                     │
-│ Revenue             │
-│ Orders              │
-│ Product Analysis    │
-│ Trends              │
-└─────────────────────┘
+KPI Development
+
+↓
+
+Business Metrics
+
+↓
+
+Power BI Dashboard
+
+↓
+
+Decision Support
 
 
 ### Technical Implementation
@@ -399,78 +333,43 @@ Key capabilities:
 ## Programming & Data Processing
 
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
 
 ## Data Engineering
 
 
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-
-![PySpark](https://img.shields.io/badge/PySpark-FF9900?style=for-the-badge&logo=apachespark&logoColor=white)
-
-![ETL](https://img.shields.io/badge/ETL%20Pipelines-4B8BBE?style=for-the-badge)
-
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white) ![PySpark](https://img.shields.io/badge/PySpark-FF9900?style=for-the-badge&logo=apachespark&logoColor=white) ![ETL](https://img.shields.io/badge/ETL%20Pipelines-4B8BBE?style=for-the-badge)
 
 
 ## Business Intelligence
 
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
-![Data Modeling](https://img.shields.io/badge/Data%20Modeling-2F80ED?style=for-the-badge)
-
-![Dashboarding](https://img.shields.io/badge/Analytics%20Dashboards-00C851?style=for-the-badge)
-
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Data Modeling](https://img.shields.io/badge/Data%20Modeling-2F80ED?style=for-the-badge) ![Dashboarding](https://img.shields.io/badge/Analytics%20Dashboards-00C851?style=for-the-badge)
 
 
 ## Machine Learning
 
 
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-412991?style=for-the-badge)
-
+![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-412991?style=for-the-badge)
 
 
 ## Artificial Intelligence
 
 
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
-
-![LangGraph](https://img.shields.io/badge/LangGraph-FF6F00?style=for-the-badge)
-
-![LLM%20Applications](https://img.shields.io/badge/LLM%20Applications-8A2BE2?style=for-the-badge)
-
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge) ![LangGraph](https://img.shields.io/badge/LangGraph-FF6F00?style=for-the-badge) ![LLM%20Applications](https://img.shields.io/badge/LLM%20Applications-8A2BE2?style=for-the-badge)
 
 
 ## Databases
 
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 
 ## Cloud & Development Tools
 
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
-
-![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900) ![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 
 ---
