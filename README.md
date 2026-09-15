@@ -97,27 +97,43 @@ https://github.com/MuskaanHaleem/karachi-retail-intelligence
 ### Architecture
 
 
-User Question
-
-↓
-
-LLM Reasoning Agent
-
-↓
-
-SQL Generation
-
-↓
-
-Query Validation
-
-↓
-
-PostgreSQL Database
-
-↓
-
-Business Insight
+┌──────────────────────┐
+│      User Query      │
+│ "Show monthly sales" │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│  AI Agent Layer      │
+│                      │
+│ LangGraph Workflow   │
+│ LLM Reasoning        │
+│ Prompt Processing    │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Query Intelligence   │
+│                      │
+│ Natural Language → SQL│
+│ Query Validation     │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Data Layer           │
+│                      │
+│ PostgreSQL Database  │
+│ Read Only Access     │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Analytics Response   │
+│                      │
+│ Business Insights    │
+│ Automated Reporting  │
+└──────────────────────┘
 
 
 ### Technical Implementation
@@ -160,27 +176,47 @@ https://github.com/MuskaanHaleem/ai-job-market-intelligence-platform
 ### ML Pipeline
 
 
-Job Dataset
+                 DATA INGESTION
+                       │
+                       ▼
 
-↓
+        ┌─────────────────────────┐
+        │   Raw Job Market Data   │
+        │   99K+ Job Records      │
+        └───────────┬─────────────┘
+                    │
 
-Data Cleaning
+                    ▼
 
-↓
+        ┌─────────────────────────┐
+        │ Data Processing Layer   │
+        │                         │
+        │ • Cleaning              │
+        │ • Feature Engineering   │
+        │ • Transformation        │
+        └───────────┬─────────────┘
 
-Feature Engineering
+                    │
 
-↓
+          ┌─────────┴─────────┐
+          ▼                   ▼
 
-Exploratory Analysis
+┌────────────────┐   ┌────────────────┐
+│ Classification │   │  Regression    │
+│                │   │                │
+│ Job Role       │   │ Salary         │
+│ Prediction     │   │ Estimation     │
+└───────┬────────┘   └───────┬────────┘
 
-↓
+        │                    │
 
-Machine Learning Models
+        └──────────┬─────────┘
+                   ▼
 
-↓
-
-Prediction Application
+        ┌────────────────────┐
+        │ Streamlit App      │
+        │ Prediction Layer   │
+        └────────────────────┘
 
 
 ### Technical Implementation
@@ -222,23 +258,48 @@ https://github.com/MuskaanHaleem/ice-cream-sales-data-warehouse-analytics
 ### Data Architecture
 
 
-Raw Data
+                 DATA SOURCES
 
-↓
+        ┌─────────────────────┐
+        │ Transaction Dataset │
+        └──────────┬──────────┘
+                   │
 
-ETL Processing
+                   ▼
 
-↓
+        ┌─────────────────────┐
+        │ ETL PIPELINE        │
+        │                     │
+        │ Extract             │
+        │ Transform           │
+        │ Load                │
+        └──────────┬──────────┘
 
-Fact & Dimension Tables
+                   │
 
-↓
+                   ▼
 
-Star Schema Model
+        ┌─────────────────────┐
+        │ DATA WAREHOUSE      │
+        │                     │
+        │   Fact Sales        │
+        │        │            │
+        │ ┌──────┼──────┐     │
+        │ Date Product Store │
+        │ Dealer Payment     │
+        └──────────┬──────────┘
 
-↓
+                   │
 
-Power BI Reporting
+                   ▼
+
+        ┌─────────────────────┐
+        │ Power BI Analytics  │
+        │                     │
+        │ KPIs                │
+        │ Trends              │
+        │ Reports             │
+        └─────────────────────┘
 
 
 ### Technical Implementation
@@ -280,27 +341,32 @@ https://github.com/MuskaanHaleem/pizza-sales-business-intelligence-dashboard
 ### Business Intelligence Workflow
 
 
-Transactional Sales Data
+┌─────────────────────┐
+│ Sales Transactions  │
+└──────────┬──────────┘
+           │
+           ▼
 
-↓
+┌─────────────────────┐
+│ SQL Analytics Layer │
+│                     │
+│ Aggregations        │
+│ KPIs                │
+│ Business Metrics    │
+└──────────┬──────────┘
 
-SQL Data Analysis
+           │
 
-↓
+           ▼
 
-KPI Development
-
-↓
-
-Business Metrics
-
-↓
-
-Power BI Dashboard
-
-↓
-
-Decision Support
+┌─────────────────────┐
+│ Power BI Dashboard  │
+│                     │
+│ Revenue             │
+│ Orders              │
+│ Product Analysis    │
+│ Trends              │
+└─────────────────────┘
 
 
 ### Technical Implementation
