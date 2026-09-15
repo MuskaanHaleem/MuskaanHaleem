@@ -100,31 +100,17 @@ https://karachi-retail-intelligence.streamlit.app/
 https://github.com/MuskaanHaleem/karachi-retail-intelligence
 
 
-### Architecture
+### Architecture — AI Analytics Pipeline:
 
-
-User Question
-
-↓
-
-LLM Reasoning Agent
-
-↓
-
-SQL Generation
-
-↓
-
-Query Validation
-
-↓
-
-PostgreSQL Database
-
-↓
-
-Business Insight
-
+```text
+[User Query] 
+      ↓
+[Streamlit Interface] ↔ [FastAPI Backend] ↔ [LangGraph AI Agent] ↔ [PostgreSQL Database]
+                              ↓
+                    [SQL Generation + Validation]
+                              ↓
+                    [Business Intelligence Insights]
+```
 
 ### Technical Implementation
 
@@ -468,25 +454,6 @@ I enjoy building systems that combine:
 
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=MuskaanHaleem&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-
-</div>
-
-
-
----
-
-
-# 📫 Connect With Me
-
-
-<div align="center">
-
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Muskaan%20Haleem-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mskhlm)
-
-
-[![Email](https://img.shields.io/badge/Email-msklm4%40gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:msklm4@gmail.com)
 
 
 </div>
