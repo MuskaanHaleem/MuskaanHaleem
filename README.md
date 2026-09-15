@@ -3,7 +3,11 @@
 # 📊 Data Analyst | Data Engineer | Machine Learning | AI Applications
 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B+I'm+Muskaan+%E2%80%94+I+turn+complex+data+challenges+into+intelligent+solutions.;From+pipelines+to+insights%2C+I+build+systems+that+help+businesses+make+smarter+decisions.)](https://git.io/typing-svg)
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B+I'm+Muskaan;Turning+data+into+meaningful+decisions+through+AI%2C+analytics%2C+and+intelligent+systems)](https://git.io/typing-svg)
+
+</div>
 
 
 **Building end-to-end data solutions across analytics, engineering, machine learning, and artificial intelligence.**
