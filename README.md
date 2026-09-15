@@ -2,11 +2,12 @@
 
 # 📊 Data Analyst | Data Engineer | Machine Learning | AI Applications
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=850&lines=Hi+%F0%9F%91%8B+I'm+Muskaan+Haleem;Data+Analyst+%7C+Data+Engineer;Machine+Learning+%7C+AI+Applications;Building+End-to-End+Data+Solutions)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=850&lines=Hi+%F0%9F%91%8B+I'm+Muskaan+Haleem;Data+Analyst+%7C+Data+Engineer;Machine+Learning+%7C+AI+Applications;Building+Data+Driven+Systems)](https://git.io/typing-svg)
 
-**Building end-to-end data solutions across analytics, data engineering, machine learning, and AI-powered applications.**
+**Building end-to-end data solutions across analytics, engineering, machine learning, and artificial intelligence.**
 
-BSCS Graduate • Data Analytics • Business Intelligence • Applied AI
+BSCS Graduate • Data Analytics • Data Engineering • Business Intelligence • Applied AI
+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Muskaan%20Haleem-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mskhlm)
 
@@ -14,7 +15,7 @@ BSCS Graduate • Data Analytics • Business Intelligence • Applied AI
 
 [![Email](https://img.shields.io/badge/Email-msklm4%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:msklm4@gmail.com)
 
-[![Live Demo](https://img.shields.io/badge/Live%20AI%20Project-Karachi%20Retail%20Intelligence-00C851?style=for-the-badge&logo=streamlit&logoColor=white)](https://karachi-retail-intelligence.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20AI%20Application-Karachi%20Retail%20Intelligence-00C851?style=for-the-badge&logo=streamlit&logoColor=white)](https://karachi-retail-intelligence.streamlit.app/)
 
 </div>
 
@@ -23,24 +24,51 @@ BSCS Graduate • Data Analytics • Business Intelligence • Applied AI
 
 # 👋 About Me
 
-I am a **Data Analyst | Data Engineer | Machine Learning enthusiast** focused on building end-to-end data solutions that transform raw information into actionable business intelligence.
+I am a **Data Analyst | Data Engineer | Machine Learning enthusiast** focused on building production-oriented data systems that transform raw information into actionable intelligence.
 
-My work combines:
+My expertise spans the complete data lifecycle:
 
-- Data Engineering
-- Business Intelligence
-- Machine Learning
-- AI-powered Analytics Applications
-- Data Modeling
-- Predictive Analytics
+**Data Engineering → Analytics → Business Intelligence → Machine Learning → AI Applications**
 
 
-I build solutions across the complete data lifecycle:
+I build solutions involving:
 
-**Raw Data → ETL Pipelines → Data Modeling → Analytics → Machine Learning → AI Applications**
+- Data pipelines and ETL workflows
+- Analytical data models
+- Business intelligence dashboards
+- Machine learning systems
+- AI-powered analytics agents
+- Database-driven applications
 
 
-I focus on creating systems that bridge the gap between **data infrastructure, analytics, and artificial intelligence**.
+My goal is to create systems where **data infrastructure, analytics, and artificial intelligence work together to solve real-world business problems.**
+
+
+---
+
+# 🚀 Impact & Engineering Highlights
+
+
+📌 Built an **LLM-powered conversational analytics agent** capable of translating natural language business questions into SQL queries over a live PostgreSQL database.
+
+📌 Developed an **end-to-end machine learning recruitment intelligence platform** including data preprocessing, feature engineering, classification, regression, and deployment.
+
+📌 Designed a **dimensional data warehouse architecture** using ETL workflows, fact and dimension modelling, and Power BI reporting.
+
+📌 Created multiple **business intelligence dashboards** transforming raw transactional data into decision-support analytics.
+
+
+---
+
+# 🔭 Currently Exploring
+
+
+- Large Language Model applications
+- AI-powered analytics agents
+- Data engineering pipelines
+- Analytics engineering practices
+- Cloud-based data platforms
+- Scalable machine learning workflows
 
 
 ---
@@ -48,14 +76,14 @@ I focus on creating systems that bridge the gap between **data infrastructure, a
 # 🚀 Featured Projects
 
 
-# 🧠 Karachi Retail Intelligence
+## 🧠 Karachi Retail Intelligence
 
-## Conversational Analytics Agent — Natural Language to SQL
+### LLM-Powered Conversational Analytics Agent
 
 
-An AI-powered analytics platform that enables users to interact with retail data using natural language questions.
+An AI analytics platform that enables users to query retail databases using natural language.
 
-The system converts business queries into SQL statements, validates generated queries, executes them against PostgreSQL, and returns analytical insights.
+The system converts business questions into validated SQL queries, executes them securely against PostgreSQL, and generates analytical responses.
 
 
 🔗 Live Demo:
@@ -66,203 +94,240 @@ https://karachi-retail-intelligence.streamlit.app/
 https://github.com/MuskaanHaleem/karachi-retail-intelligence
 
 
-## Technical Architecture
-
-User Question  
-↓  
-Natural Language Understanding  
-↓  
-LLM Reasoning Agent  
-↓  
-SQL Query Generation  
-↓  
-Query Validation  
-↓  
-PostgreSQL Database  
-↓  
-Business Insight Response
+### Architecture
 
 
-## Implementation
+User Question
+
+↓
+
+LLM Reasoning Agent
+
+↓
+
+SQL Generation
+
+↓
+
+Query Validation
+
+↓
+
+PostgreSQL Database
+
+↓
+
+Business Insight
 
 
-| Layer | Technology |
+### Technical Implementation
+
+
+| Component | Technology |
 |---|---|
-| AI Agent | LangGraph workflow |
-| LLM Integration | Natural language reasoning and SQL generation |
+| AI Workflow | LangGraph |
+| LLM Integration | Natural Language Processing |
 | Backend | FastAPI |
 | Database | PostgreSQL |
 | Frontend | Streamlit |
-| Security | Read-only database execution |
-| Analytics | Automated business intelligence generation |
+| Security | Read-only database access |
+| Analytics | Automated insight generation |
 
 
 Key capabilities:
 
-- Natural language to SQL conversion
+- Natural language to SQL generation
+- Conversational database interaction
 - AI-assisted business analytics
-- Database-aware responses
 - Secure analytical querying
-- Conversational data exploration
+- Real-time data exploration
 
 
 ---
 
-# 🤖 AI Job Market Intelligence Platform
+## 🤖 AI Job Market Intelligence Platform
+
+### Machine Learning Recruitment Analytics System
 
 
-## Machine Learning Recruitment Analytics System
-
-
-An end-to-end machine learning platform designed to analyze employment market data, predict job roles, and estimate salary outcomes using predictive modelling techniques.
+An end-to-end machine learning platform designed to analyze employment market data, predict job roles, and estimate salary outcomes.
 
 
 🔗 Repository:
 https://github.com/MuskaanHaleem/ai-job-market-intelligence-platform
 
 
-## Machine Learning Pipeline
+### ML Pipeline
 
-Job Market Dataset  
-↓  
-Data Cleaning  
-↓  
-Feature Engineering  
-↓  
-Exploratory Data Analysis  
-↓  
-Machine Learning Models  
-↓  
-Model Serialization  
-↓  
+
+Job Dataset
+
+↓
+
+Data Cleaning
+
+↓
+
+Feature Engineering
+
+↓
+
+Exploratory Analysis
+
+↓
+
+Machine Learning Models
+
+↓
+
 Prediction Application
 
 
-## Implementation
+### Technical Implementation
 
 
-| Layer | Technology |
+| Component | Technology |
 |---|---|
 | Data Processing | Python, Pandas, NumPy |
-| Analytics | Exploratory Data Analysis |
-| Classification | Job role prediction model |
-| Regression | Salary prediction model |
-| Model Storage | Serialized ML artifacts |
+| ML Models | Classification & Regression |
+| Feature Engineering | Data Transformation Pipelines |
+| Model Management | Serialized ML Artifacts |
 | Deployment | Streamlit |
-| Visualization | Power BI |
+| Analytics | Power BI |
 
 
-Implemented:
+Key capabilities:
 
-- Data preprocessing pipelines
-- Feature engineering workflows
-- Classification modelling
-- Regression modelling
-- Predictive inference pipeline
-- Employment market analysis
+- Job role prediction
+- Salary estimation
+- Employment trend analysis
+- Predictive analytics workflow
+- Machine learning deployment
 
 
 ---
 
-# 🍦 Ice Cream Sales Data Warehouse Analytics
+## 🍦 Ice Cream Sales Data Warehouse Analytics
+
+### ETL & Business Intelligence Platform
 
 
-## ETL Pipeline & Business Intelligence Platform
-
-
-End-to-end analytical data warehouse solution implementing ETL processing, dimensional modelling, Star Schema architecture, and Power BI dashboards for business performance analysis.
+An end-to-end data warehouse solution implementing ETL processing, dimensional modelling, Star Schema architecture, and Power BI analytics.
 
 
 🔗 Repository:
 https://github.com/MuskaanHaleem/ice-cream-sales-data-warehouse-analytics
 
 
-## Data Warehouse Architecture
-
-Raw Transaction Data  
-↓  
-ETL Processing Pipeline  
-↓  
-Fact & Dimension Tables  
-↓  
-Star Schema Model  
-↓  
-Power BI Analytics Layer
+### Data Architecture
 
 
-## Implementation
+Raw Data
+
+↓
+
+ETL Processing
+
+↓
+
+Fact & Dimension Tables
+
+↓
+
+Star Schema Model
+
+↓
+
+Power BI Reporting
 
 
-| Layer | Technology |
+### Technical Implementation
+
+
+| Component | Technology |
 |---|---|
-| ETL | Data extraction, cleaning, transformation |
-| Data Modelling | Fact and dimension architecture |
-| Warehouse Design | Star Schema |
-| Analytics | Business performance reporting |
-| Visualization | Power BI dashboards |
+| ETL | Python / Data Transformation |
+| Data Warehouse | Dimensional Modelling |
+| Architecture | Star Schema |
+| Analytics | Power BI |
+| Reporting | Business Intelligence Dashboards |
 
 
-Implemented:
+Key capabilities:
 
-- Dimensional modelling
-- Data transformation workflows
-- Analytical data preparation
-- Business intelligence reporting
+- Data transformation pipelines
+- Analytical modelling
+- Warehouse design
+- Business reporting
+
 
 ---
+---
 
-# 🍕 Pizza Sales Business Intelligence Dashboard
+## 🍕 Pizza Sales Business Intelligence Dashboard
+
+### SQL Analytics & Power BI Reporting Platform
 
 
-## SQL Analytics & Power BI Reporting Platform
-
-
-End-to-end Business Intelligence solution transforming transactional pizza sales data into actionable insights through SQL analytics, KPI modelling, and interactive Power BI dashboards.
+An end-to-end Business Intelligence solution transforming transactional sales data into actionable business insights through SQL analytics, KPI modelling, and interactive dashboards.
 
 
 🔗 Repository:
 https://github.com/MuskaanHaleem/pizza-sales-business-intelligence-dashboard
 
 
-## Business Intelligence Workflow
 
-Raw Sales Transactions  
-↓  
-SQL Data Analysis  
-↓  
-KPI Development  
-↓  
-Business Insights Extraction  
-↓  
-Power BI Dashboard  
-↓  
-Decision Support System
+### Business Intelligence Workflow
 
 
-## Implementation
+Transactional Sales Data
+
+↓
+
+SQL Data Analysis
+
+↓
+
+KPI Development
+
+↓
+
+Business Metrics
+
+↓
+
+Power BI Dashboard
+
+↓
+
+Decision Support
 
 
-| Layer | Technology |
+### Technical Implementation
+
+
+| Component | Technology |
 |---|---|
-| Data Analysis | SQL analytical queries |
-| Metrics | Revenue, orders, sales KPIs |
-| Reporting | Power BI dashboards |
-| Visualization | Business performance analytics |
-| Insights | Product and sales trend analysis |
+| Data Analysis | SQL |
+| Metrics | Revenue, Orders, Sales KPIs |
+| Dashboard | Power BI |
+| Reporting | Business Intelligence Analytics |
+| Insights | Product & Sales Performance Analysis |
 
 
-Implemented:
+Key capabilities:
 
-- Sales performance analysis
-- Revenue tracking
-- Product-level analytics
-- KPI development
-- Interactive reporting dashboards
+- Revenue analysis
+- Sales trend identification
+- Product performance analytics
+- KPI reporting
+- Interactive dashboards
 
 
 ---
 
-# 🛠️ Technical Stack
+
+# 🛠️ Technical Skills
 
 
 ## Programming & Data Processing
@@ -316,7 +381,7 @@ Implemented:
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-FF6F00?style=for-the-badge)
 
-![LLM Applications](https://img.shields.io/badge/LLM%20Applications-8A2BE2?style=for-the-badge)
+![LLM%20Applications](https://img.shields.io/badge/LLM%20Applications-8A2BE2?style=for-the-badge)
 
 
 
@@ -344,6 +409,7 @@ Implemented:
 
 ---
 
+
 # 🏆 Certifications
 
 
@@ -359,7 +425,8 @@ Implemented:
 
 ---
 
-# 🎓 Background
+
+# 🎓 Education & Background
 
 
 🎓 **Bachelor of Science in Computer Science**
@@ -367,7 +434,7 @@ Implemented:
 SZABIST Karachi
 
 
-Focused Areas:
+Areas of Focus:
 
 - Data Analytics
 - Data Engineering
@@ -378,6 +445,37 @@ Focused Areas:
 
 
 ---
+
+
+# 📌 What I Build
+
+
+I enjoy building systems that combine:
+
+
+**Data Engineering**
+
+→ ETL pipelines, data transformation workflows, analytical data models
+
+
+**Business Intelligence**
+
+→ Interactive dashboards, KPI reporting, decision-support analytics
+
+
+**Machine Learning**
+
+→ Predictive models, classification systems, regression pipelines
+
+
+**Artificial Intelligence**
+
+→ LLM applications, AI agents, conversational analytics systems
+
+
+
+---
+
 
 # 📈 GitHub Statistics
 
@@ -407,6 +505,7 @@ Focused Areas:
 
 ---
 
+
 # 📫 Connect With Me
 
 
@@ -424,6 +523,7 @@ Focused Areas:
 
 
 ---
+
 
 <div align="center">
 
