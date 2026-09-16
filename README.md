@@ -19,8 +19,6 @@ BSCS Graduate • Data Analytics • Data Engineering • Business Intelligence 
 
 [![GitHub](https://img.shields.io/badge/GitHub-MuskaanHaleem-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MuskaanHaleem)
 
-[![Email](https://img.shields.io/badge/Email-msklm4%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:msklm4@gmail.com)
-
 [![Live Demo](https://img.shields.io/badge/Live%20AI%20Application-Karachi%20Retail%20Intelligence-00C851?style=for-the-badge&logo=streamlit&logoColor=white)](https://karachi-retail-intelligence.streamlit.app/)
 
 </div>
